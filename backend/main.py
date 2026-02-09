@@ -9,9 +9,6 @@ from db.database import SessionLocal, engine
 from db import models
 from db.crud import create_project, get_all_projects
 
-from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
-
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
@@ -32,11 +29,6 @@ real technical co-founder guiding founders from idea to execution.
 """,
 )
 
-app.mount("/static", StaticFiles(directory="frontend"), name="static")
-
-@app.get("/")
-def serve_frontend():
-    return FileResponse("frontend/index.html")
 
 
 app.add_middleware(

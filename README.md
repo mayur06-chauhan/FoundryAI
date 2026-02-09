@@ -5,12 +5,6 @@ It acts like a **technical co-founder**, helping founders move from idea to impl
 
 ---
 
-## 🌐 Live Demo
-
-🔗 Deployed App link: 
-
----
-
 ## 📌 Problem Statement
 
 Early-stage founders often have ideas but struggle with:
