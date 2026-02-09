@@ -1,0 +1,15 @@
+# --- Core Backend ---
+fastapi
+uvicorn
+
+# --- LLM & Agent Framework ---
+langchain
+langchain-core
+langchain-openai
+langgraph
+
+# --- Database ---
+sqlalchemy
+
+# --- Environment Variables ---
+python-dotenv
