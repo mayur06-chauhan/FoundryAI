@@ -10,6 +10,7 @@ wheels/
 .venv
 .env
 
-projects.db
+backend/projects.db
 
 __pycache__/
+uv.lock
